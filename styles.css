@@ -2,30 +2,53 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
   }
   
   .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  header {
-    text-align: center;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .header-left {
+    flex: 1;
+  }
+  
+  .header-right img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
   }
   
   h1 {
     margin: 5px 0;
+    color: #333;
   }
   
-  .about,
-  .experience,
-  .education {
-    margin-bottom: 30px;
+  p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .main-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
   }
   
   h2 {
     margin-top: 0;
+    color: #333;
   }
   
   ul {
@@ -37,7 +60,9 @@ body {
     margin-bottom: 15px;
   }
   
-  p {
-    margin: 5px 0;
+  .about p,
+  .experience p,
+  .education p {
+    color: #666;
   }
   
